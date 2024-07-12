@@ -14,7 +14,7 @@ He elegido trabajar en un proyecto relacionado con la NASA. Esta elección surge
 Para este trabajo utilize la API de APOD (Imagen del día) de la NASA.
 
 Adjunto links a la misma:
-* https://api.nasa.gov/#browseAPI
+* https://api.nasa.gov
 * https://api.nasa.gov/planetary/apod
 
 ## Aclaración
