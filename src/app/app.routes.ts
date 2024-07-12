@@ -5,7 +5,7 @@ import { ArtemisComponent } from './views/Artemis/artemis.component';
 import { ArticleComponent } from './views/Article/article.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'inicio', component: HomeComponent },
   { path: 'galeria', component: GalleryComponent },
   { path: 'artemis', component: ArtemisComponent },
