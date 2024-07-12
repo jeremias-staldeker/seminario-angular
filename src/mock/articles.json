@@ -164,8 +164,8 @@
     "paragraphB": "En septiembre de 2022, DART impactó intencionalmente a Dimorphos con la intención de alterar su órbita. Este experimento tiene como finalidad evaluar si un impacto de alta velocidad puede cambiar la trayectoria de un asteroide, proporcionando una estrategia viable para la defensa planetaria en el futuro.",
     "paragraphC": "Los resultados de la misión DART serán cruciales para desarrollar y perfeccionar métodos de defensa contra asteroides, garantizando la seguridad de nuestro planeta frente a posibles amenazas del espacio.",
     "readingTime": "7 minutos de lectura",
-    "imageUrl": "",
-    "imageAlt": ""
+    "imageUrl": "https://images-assets.nasa.gov/image/PIA25329/PIA25329~orig.jpg",
+    "imageAlt": "DART"
   },
   {
     "id": 15,
@@ -176,7 +176,7 @@
     "paragraphB": "Los científicos están utilizando estos datos para reconstruir la historia climática de Marte y entender los procesos que han llevado a la pérdida de su atmósfera. Estos conocimientos son esenciales para evaluar la habitabilidad pasada del planeta y planificar futuras misiones tripuladas.",
     "paragraphC": "Además, MAVEN está proporcionando información crítica sobre la interacción entre el viento solar y la atmósfera marciana, lo que ayudará a proteger futuros equipos y misiones en la superficie del planeta.",
     "readingTime": "10 minutos de lectura",
-    "imageUrl": "",
-    "imageAlt": ""
+    "imageUrl": "https://images-assets.nasa.gov/image/PIA14761/PIA14761~orig.jpg",
+    "imageAlt": "MAVEN"
   }
 ]
