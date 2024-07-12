@@ -83,7 +83,7 @@ div.banner {
   max-height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(assets/images/banner.jpg);
+  background-image: url(./assets/images/banner.jpg);
 }
 
 div.banner-content {
