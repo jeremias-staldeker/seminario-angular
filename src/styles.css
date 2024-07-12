@@ -1,1 +1,173 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --black: #1b1b1b;
+  --white: #ffffff;
+  --grey: #f6f6f6;
+
+  /* Font Size */
+  --font-size-h1: 4.5rem;
+  --font-size-h2: 4rem;
+}
+
+/* Common */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+p.paragraph {
+  font-size: large;
+  word-wrap: break-word;
+  word-spacing: 0.2rem;
+}
+
+.page-content {
+  padding: 3rem 10rem;
+}
+
+.page-content-small {
+  padding: 3rem 10rem;
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+/* Headers */
+nav.navbar {
+  background-color: var(--black);
+}
+
+nav.navbar button.navbar-toggler {
+  background-color: var(--white);
+}
+
+nav.navbar ul li a.nav-link,
+nav.navbar ul li a.nav-link.active {
+  width: fit-content;
+  color: var(--white);
+  transition: all 0.1s;
+  border-bottom: 3px solid transparent;
+}
+
+nav.navbar ul {
+  gap: 1rem;
+}
+
+nav.navbar ul li a.nav-link {
+  font-size: x-large;
+}
+
+nav.navbar ul li a.nav-link.active,
+nav.navbar ul li a.nav-link:hover {
+  border-bottom: 3px solid var(--white);
+}
+
+nav.navbar ul li a.nav-link.active {
+  font-weight: 600;
+}
+
+/* Home */
+div.banner {
+  z-index: 1;
+  max-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(assets/images/banner.jpg);
+}
+
+div.banner-content {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 5vw 10rem;
+  background: linear-gradient(65.99deg, #000 0, transparent 99.04%);
+}
+
+div.banner h1,
+div.banner h3 {
+  color: var(--white);
+  text-shadow: 1px 1px black;
+}
+
+div.banner h3 {
+  font-style: italic;
+}
+
+button.link {
+  padding: 0;
+  border: none;
+  outline: none;
+  align-self: end;
+  box-shadow: none;
+  color: var(--bs-blue);
+  background: transparent;
+}
+
+button.link:hover {
+  text-decoration: underline;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery li {
+  height: 30vh;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery li:last-child {
+  flex-grow: 10;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  transition: all 0.3s ease-out;
+}
+
+.gallery li:hover img {
+  transform: scale(1.2);
+}
+
+ul.nav.nav-tabs li button.nav-link {
+  font-size: large;
+}
+
+/* Artemis */
+.accordion-header button {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.accordion-item button img {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}

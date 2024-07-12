@@ -1,0 +1,32 @@
+<header-component></header-component>
+<main>
+  <div class="banner">
+    <div class="banner-content">
+      <h1 class="fw-bold">NASA</h1>
+      <h3 class="font-italic">"Explorando el universo, inspirando el mañana"</h3>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="row pb-5">
+      <h2>Noticias destacadas</h2>
+    </div>
+    <div class="row" *ngFor="let article of articles; let i = index">
+      <div class="col-12 d-flex gap-3">
+        <div class="align-self-center">
+          <h3>{{ i + 1 }}</h3>
+        </div>
+        <div class="d-flex flex-column w-100">
+          <h4 class="m-0">{{ article.title }} - <span class="text-muted">{{ article.date }}</span></h4>
+          <span class="my-1"><b>{{ article.readingTime }}</b></span>
+          <div class="d-flex align-items-center justify-content-between flex-wrap">
+            <p class="m-0">{{ article.summary }}</p>
+            <button [id]="'button-' + article.id" type="button" class="link" (click)="openArticle(article.id)">
+              Leer más...
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" *ngIf="i < articles.length - 1">
+    </div>
+  </div>
+</main>
